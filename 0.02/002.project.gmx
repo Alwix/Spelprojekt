@@ -14,6 +14,7 @@
     <sprite>sprites\spr_viewR</sprite>
     <sprite>sprites\spr_zombieMelee</sprite>
     <sprite>sprites\spr_nextRoom</sprite>
+    <sprite>sprites\spr_ladder</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -34,6 +35,7 @@
     </objects>
     <object>objects\obj_jumpThru</object>
     <object>objects\effFadeToBlack</object>
+    <object>objects\obj_ladder</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_test</room>
