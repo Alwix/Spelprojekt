@@ -28,7 +28,8 @@
             <string>closestPlayer = 0;
 player1Pos = 0;
 player2Pos = 0;
-
+globalvar bounce;
+bounce = 0
 origin = obj_ooze.x
 </string>
           </argument>
@@ -58,8 +59,32 @@ move_towards_point(oozeFollow.x,y,2);
 }
 if place_meeting(x,y,obj_block)
 {
+obj_oozeTrigger.done = false
 move_towards_point(obj_oozeOrigin.x,y,2)
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_player1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>obj_player1.speed = -8;
 </string>
           </argument>
         </arguments>
