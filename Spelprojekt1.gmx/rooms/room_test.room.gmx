@@ -188,7 +188,7 @@
     <instance objName="obj_viewL" x="64" y="512" name="inst_958033F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_viewL" x="64" y="544" name="inst_8C017422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_control" x="128" y="0" name="inst_CEB188D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ooze" x="1088" y="576" name="inst_AD9CC303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ooze" x="832" y="576" name="inst_AD9CC303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ladder" x="352" y="576" name="inst_93123B1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ladder" x="352" y="544" name="inst_6DD0C7DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ladder" x="352" y="512" name="inst_CEE20873" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -199,9 +199,9 @@
     <instance objName="obj_ladder" x="352" y="352" name="inst_82AAA0E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ladder" x="352" y="320" name="inst_405C695E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ladder" x="352" y="288" name="inst_90DA020B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_oozeTrigger" x="800" y="576" name="inst_E4F74432" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oozeTrigger" x="704" y="576" name="inst_E4F74432" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block" x="576" y="576" name="inst_8F8E4899" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_oozeOrigin" x="1088" y="544" name="inst_BAC49A3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_oozeOrigin" x="832" y="544" name="inst_BAC49A3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

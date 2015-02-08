@@ -35,7 +35,6 @@ globalvar touchR1;
 touchR1 = false;
 
 health = 1000
-alarm[0] = 30;
 ladder = false;
 
 </string>
@@ -61,7 +60,7 @@ ladder = false;
           <argument>
             <kind>1</kind>
             <string>
-//speed += 8
+ speed += 8
 </string>
           </argument>
         </arguments>
@@ -219,6 +218,31 @@ if(ladder)
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///För att spelaren inte ska knockbackas in i väggen
+    if place_meeting(x,y,obj_block)
+       {
+       x+=4
+       }
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="4" ename="obj_ooze">
       <action>
@@ -237,10 +261,21 @@ if(ladder)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//speed = -8;
-//alarm[0] = 5;
+            <string>/*
+speed = -8;
+alarm[0] = 5;
 
+if place_meeting(x-1,y,obj_block)
+speed = 0;
+*/
 
+if !place_meeting(x-8,y,obj_block) // Om det inte är något block åt det håll vi är påväg
+    {
+       // x -= 3; // ändrar vi vårt x-värde
+       speed = -8;
+       alarm[0] = 5;
+       
+    }
 </string>
           </argument>
         </arguments>
