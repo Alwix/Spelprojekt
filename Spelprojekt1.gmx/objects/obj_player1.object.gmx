@@ -60,7 +60,10 @@ ladder = false;
           <argument>
             <kind>1</kind>
             <string>
- speed += 8
+// speed += 8
+
+friction = 0;
+speed = 0;
 </string>
           </argument>
         </arguments>
@@ -237,7 +240,7 @@ if(ladder)
             <string>///För att spelaren inte ska knockbackas in i väggen
     if place_meeting(x,y,obj_block)
        {
-       x+=4
+       y-=4
        }
 </string>
           </argument>
@@ -269,6 +272,9 @@ if place_meeting(x-1,y,obj_block)
 speed = 0;
 */
 
+// direction = image_angle;
+
+/*
 if !place_meeting(x-8,y,obj_block) // Om det inte är något block åt det håll vi är påväg
     {
        // x -= 3; // ändrar vi vårt x-värde
@@ -276,6 +282,7 @@ if !place_meeting(x-8,y,obj_block) // Om det inte är något block åt det håll
        alarm[0] = 5;
        
     }
+    */
 </string>
           </argument>
         </arguments>
