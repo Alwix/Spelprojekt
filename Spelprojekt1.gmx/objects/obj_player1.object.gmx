@@ -34,7 +34,7 @@ touchL1 = false;
 globalvar touchR1;
 touchR1 = false;
 
-health = 1000
+health = 10000
 alarm[0] = 30;
 ladder = false;
 </string>
